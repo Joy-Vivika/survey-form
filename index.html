@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+      <html>
+        <head>
+          <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+          <link href="css/styles.css" rel="stylesheet" type="text/css">
+          <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+          <script src="js/scripts.js"></script>
+          <title>Survey</title>
+        </head>
+        <body>
+          <div class="container">
+
+            <h2>Please fill in the details of the survey as instructed.</h2>
+<h2>Drop the box to choose a beverage</h2>
+      <select class="form-control" id="beverage">
+
+        <option>Coffee</option>
+        <option>Tea</option>
+        <option>Kombucha</option>
+        <option>Water</option>
+      </select>
+      <h3>choose a favourite</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="chocolate" checked>
+          Chocolate
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="vanilla">
+          Vanilla
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cookiesandcream">
+          Cookies & Cream
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+
+
+          </div>
+        </body>
+      </html>
